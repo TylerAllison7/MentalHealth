@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  background-color: rgb(19, 157, 19);
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2.125rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 8px;
+}
+
+label {
+  line-height: 2;
+}
+
+input {
+  border-width: 2px;
+  border-color: rgb(48, 65, 48);
+  border-radius: 3px;
+  height: 20px;
+}
+
+.formSection {
+  border-radius: 10px;
+  width: 275px;
+}
+
+button {
+  background-color: rgb(19, 157, 19);
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.caroButton {
+  background-color: rgb(8, 60, 8);
+}
+
+.accordButton:hover {
+  background-color: rgb(9, 63, 9);
+}
+
+.card {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgb(19, 157, 19);
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+}
+
+.stat {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+.header {
+  height: 250px;
+}
+
+footer {
+  background-color: rgb(8, 60, 8);
+  color: white;
+}
+
+.caroImg {
+  height: 400px;
+}
+
+.accordPara {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .carousel img {
+    height: 48rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .accordButton {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: 40px;
+  }
+}
